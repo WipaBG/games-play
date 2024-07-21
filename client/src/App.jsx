@@ -1,5 +1,12 @@
+import {Routes, Route} from 'react-router-dom'
+
+
 import Header from "./Components/Header/Header"
 import Home from './Components/Home/Home'
+import Login from './Components/Login/Login'
+import Register from './Components/Register/Register'
+import GameList from './Components/GameList/GameList'
+import GameCreate from './Components/GameCreate/GameCreate'
 
 function App() {
 
@@ -8,10 +15,15 @@ function App() {
             <Header/>
 
             <main id="main-content">
-                <Home/>
+                <Routes>
+                    <Route path='/' element={<Home/>}/>
+                    <Route path='/login' element={<Login/>}/>
+                    <Route path='/register' element={<Register/>}/>
+                    <Route path='/games' element={<GameList/>}/>
+                    <Route path='/games/create' element={<GameCreate/>}/>
+                </Routes>
             </main>
 
-            <h1>Games Play</h1>
         </div>
     )
 }

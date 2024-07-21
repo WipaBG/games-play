@@ -9,6 +9,7 @@ Test3
 - [x] Covnert HTML to JSX
 - [x] Separate html into components
 ## 2. React Router
-- [ ] Install react-router-dom
-- [ ] SetUp react-router-dom
-- [ ] Add routes in App.jsx
+- [x] Install react-router-dom
+- [x] SetUp react-router-dom
+- [x] Add routes in App.jsx
+- [ ] Add Links
