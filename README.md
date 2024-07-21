@@ -3,9 +3,10 @@ Test3
 ## 1.Initializy Project
 - [x] Initializy git repo
 - [x] Add SoftUni practice server
-- [ ] Add base vite react project as client
-- [ ] CleanUp client
-- [ ] Add project resources
+- [x] Add base vite react project as client
+- [x] CleanUp client
+- [x] Add project resources
+- [x] Covnert HTML to JSX
 - [ ] Separate html into components
 ## 2. React Router
 - [ ] Install react-router-dom
