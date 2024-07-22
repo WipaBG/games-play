@@ -1,0 +1,18 @@
+{
+    "7a07a13d-0abe-46d4-bfaf-04c6e32f1d62": {
+        "title": "Satisfactory",
+        "category": "Automation",
+        "maxLevel": "10",
+        "imageUrl": "https://www.google.com/imgres?q=Satisfactory&imgurl=https%3A%2F%2Fshared.akamai.steamstatic.com%2Fstore_item_assets%2Fsteam%2Fapps%2F526870%2Fcapsule_616x353.jpg%3Ft%3D1718088881&imgrefurl=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F526870%2FSatisfactory%2F&docid=vdXk610AhmiDVM&tbnid=mG4VdkHPN9T6AM&vet=12ahUKEwj8z-CBlLuHAxVQSPEDHY_VFVEQM3oECBkQAA..i&w=616&h=353&hcb=2&itg=1&ved=2ahUKEwj8z-CBlLuHAxVQSPEDHY_VFVEQM3oECBkQAAved=2ahUKEwj8z-CBlLuHAxVQSPEDHY_VFVEQM3oECGEQAA",
+        "summary": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
+        "_id": "7a07a13d-0abe-46d4-bfaf-04c6e32f1d62"
+    },
+    "53437bdf-3e3f-40c5-b8b0-12e54f5331c5": {
+        "title": "Eve Online",
+        "category": "Space simulator",
+        "maxLevel": "10",
+        "imageUrl": "https://cdn1.epicgames.com/spt-assets/184ac184bcba45c585fffaed03337844/eve-online-1093d.jpg",
+        "summary": "EVE Vanguard is a tense, gritty, and immersive sandbox FPS set in the epic sci-fi universe of New Eden, 21,000 years in the future. Technologically immortal warclones descend to planets to explore, exploit, and conquer dangerous combat zones, mastering adaptive weaponry and overcoming emergent threats to leave their mark in the great war taking place amongst the stars.",
+        "_id": "53437bdf-3e3f-40c5-b8b0-12e54f5331c5"
+    }
+}

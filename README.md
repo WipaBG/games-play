@@ -16,6 +16,9 @@ Test3
 ## 3. Create Service Layer
 - [x] Service layer architecture discussion
 - [x] Abstract requester
-- [ ] Add games api
+- [x] Add games api
+- [ ] Preseed practice server
 ## 4.Page Implementation
-- [x] Game List
+- [ ] Game List
+- [ ] Details
+- [ ] Home
