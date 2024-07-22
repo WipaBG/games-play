@@ -22,5 +22,6 @@ Test3
 - [x] Game List
 - [x] Details link
 - [x] Details route
+- [ ] Comments
 - [x] Api function - getOne
-- [ ] Home
+- [x] Home - Latest Games
