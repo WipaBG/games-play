@@ -17,8 +17,10 @@ Test3
 - [x] Service layer architecture discussion
 - [x] Abstract requester
 - [x] Add games api
-- [ ] Preseed practice server
+- [x] Preseed practice server
 ## 4.Page Implementation
-- [ ] Game List
-- [ ] Details
+- [x] Game List
+- [x] Details link
+- [x] Details route
+- [x] Api function - getOne
 - [ ] Home

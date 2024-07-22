@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
+
 import * as gamesAPI from '../../api/games-api'
 import GameListItem from './GameListItem/GameListItem';
+
 export default function GameList(){
     const [games,setGames] = useState([]);
 
