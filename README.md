@@ -12,4 +12,9 @@ Test3
 - [x] Install react-router-dom
 - [x] SetUp react-router-dom
 - [x] Add routes in App.jsx
-- [ ] Add Links
+- [x] Add Links
+## 3. Create Service Layer
+- [x] Service layer architecture discussion
+- [x] Abstract requester
+## 4.Page Implementation
+- [x] Game List
