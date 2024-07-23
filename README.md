@@ -22,6 +22,13 @@ Test3
 - [x] Game List
 - [x] Details link
 - [x] Details route
-- [ ] Comments
 - [x] Api function - getOne
 - [x] Home - Latest Games
+  
+## 5. Comments(Advanced)
+- [x] Create service for nested resource 'comments'
+- [x] Post comment to server
+- [x] Read comments from server
+- [x] Add comments in the component
+- [x] Clear form
+

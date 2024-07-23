@@ -22,7 +22,14 @@ async function requester(method, url, data){
 
 }
 
-export const get = requester.bind(null, 'GET')
-export const post = requester.bind(null, 'POST')
-export const put = requester.bind(null, 'PUT')
-export const del = requester.bind(null, 'DELETE')
+  const get = requester.bind(null, 'GET')
+ const post = requester.bind(null, 'POST')
+ const put = requester.bind(null, 'PUT')
+ const del = requester.bind(null, 'DELETE')
+
+ export default{
+    get,
+    post,
+    put,
+    del
+ }
