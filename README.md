@@ -36,6 +36,7 @@ Test3
 - [ ] Comment Hooks
 ## 7.Authentication
 - [ ] Auth API
+- [x] Login
 - [ ] Auth API hook
 - [ ] Auth state & context
 - [ ] Login

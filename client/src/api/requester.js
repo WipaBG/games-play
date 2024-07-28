@@ -1,3 +1,4 @@
+
 async function requester(method, url, data){
     const options = {};
 
@@ -22,7 +23,8 @@ async function requester(method, url, data){
 
 }
 
-  const get = requester.bind(null, 'GET')
+
+const get = requester.bind(null, 'GET')
  const post = requester.bind(null, 'POST')
  const put = requester.bind(null, 'PUT')
  const del = requester.bind(null, 'DELETE')

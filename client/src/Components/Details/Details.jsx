@@ -20,7 +20,7 @@ export default function Details() {
         e.preventDefault();
 
         const newComment = await commentsApi.create(gameId, username, comment);
-
+        
         setGame(prevState => ({
             ...prevState,
             comments: {
