@@ -24,11 +24,27 @@ Test3
 - [x] Details route
 - [x] Api function - getOne
 - [x] Home - Latest Games
-  
 ## 5. Comments(Advanced)
 - [x] Create service for nested resource 'comments'
 - [x] Post comment to server
 - [x] Read comments from server
 - [x] Add comments in the component
 - [x] Clear form
+## 6. API Hooks
+- [x] Form Hook
+- [x] GameAPI Hooks
+- [ ] Comment Hooks
+## 7.Authentication
+- [ ] Auth API
+- [ ] Auth API hook
+- [ ] Auth state & context
+- [ ] Login
+- [ ] Register
+- [ ] Logout
+## 8. UI implementation
+- [ ] Dynamic Navigation
+- [ ] Create game
+  - [ ] Api function
+  - [ ] Hook
+- [ ] Latest games
 

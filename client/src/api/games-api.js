@@ -10,7 +10,7 @@ export const getAll = async () => {
 
 export const getOne = async (gameId) => {
     const result = await requester.get(`${BASE_URL}/${gameId}`);
-    return result;
+    return result;      
 };
 
 const gamesAPI = {
