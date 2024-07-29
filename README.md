@@ -35,13 +35,20 @@ Test3
 - [x] GameAPI Hooks
 - [ ] Comment Hooks
 ## 7.Authentication
-- [ ] Auth API
-- [x] Login
-- [ ] Auth API hook
-- [ ] Auth state & context
-- [ ] Login
-- [ ] Register
-- [ ] Logout
+- [x] Auth API
+    [x] Login
+  - [ ] Register
+  - [ ] Logout
+- [x] Auth API hook
+  - [x] Login
+  - [ ] Register
+  - [ ] Logout
+- [x] Token management
+- [x] Auth state & context
+  - [ ] Login
+  - [ ] Register
+  - [ ] Logout
+  - [ ] Authorize Requests
 ## 8. UI implementation
 - [ ] Dynamic Navigation
 - [ ] Create game

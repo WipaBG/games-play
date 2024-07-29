@@ -8,6 +8,8 @@ const BASE_URL = 'http://localhost:3030/users';
  * @param {string} password 
  * @returns 
  */
+
+
 export const login = async (email, password) =>{
 
     const authData = await requester.post(`${BASE_URL}/login`, {email, password});
