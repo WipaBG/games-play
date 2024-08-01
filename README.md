@@ -49,11 +49,11 @@ Test3
   - [x] Login
   - [x] Register
   - [ ] Logout
-  - [ ] Authorize Requests
+  - [x] Authorize Requests
 ## 8. UI implementation
 - [x] Dynamic Navigation
-- [ ] Create game
-  - [ ] Api function
-  - [ ] Hook
+- [x] Create game
+  - [x] Api function
+  - [x] Hook
 - [ ] Latest games
 
