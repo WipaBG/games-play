@@ -51,7 +51,7 @@ Test3
   - [ ] Logout
   - [ ] Authorize Requests
 ## 8. UI implementation
-- [ ] Dynamic Navigation
+- [x] Dynamic Navigation
 - [ ] Create game
   - [ ] Api function
   - [ ] Hook

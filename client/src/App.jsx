@@ -19,7 +19,6 @@ function App() {
         setAuthState(state);
     }
 
-    console.log(authState)
 
     const contextData = {
         userId: authState._id,
