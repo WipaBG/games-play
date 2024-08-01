@@ -1,37 +1,37 @@
+async function requester(method, url, data) {
+  const options = {};
 
-async function requester(method, url, data){
-    const options = {};
+  if (method !== "GET") {
+    options.method = method;
+  }
 
-    if(method !=='GET'){
-        options.method= method;
-    }
+  if (data) {
+    options.headers = {
+      "Content-Type": "application/json",
+    };
 
-    if(data){
-        options.headers = {
+    options.body = JSON.stringify(data);
+  }
 
-        };
+  const response = await fetch(url, options);
+  const result = await response.json();
 
-        options.body = JSON.stringify(data);
-    }
-
-   
-    const respone =  await fetch(url,options)
-    const result = respone.json();
+  if (!response.ok) {
+    throw result;
+  }
 
 
-    return result;
-
+  return result;
 }
 
+const get = requester.bind(null, "GET");
+const post = requester.bind(null, "POST");
+const put = requester.bind(null, "PUT");
+const del = requester.bind(null, "DELETE");
 
-const get = requester.bind(null, 'GET')
- const post = requester.bind(null, 'POST')
- const put = requester.bind(null, 'PUT')
- const del = requester.bind(null, 'DELETE')
-
- export default{
-    get,
-    post,
-    put,
-    del
- }
+export default {
+  get,
+  post,
+  put,
+  del,
+};

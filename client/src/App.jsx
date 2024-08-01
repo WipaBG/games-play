@@ -12,16 +12,21 @@ import Details from './Components/Details/Details'
 import { AuthContext } from './contexts/AuthContext'
 
 function App() {
-    const [authState, setAuthState] = useState({});
-
-    const changeAuthState = (state) =>{
+    //TODO: remove this from app component
+    const [authState, setAuthState] = useState({
+    });
+    const changeAuthState = (state) => {
         setAuthState(state);
     }
+
+    console.log(authState)
+
     const contextData = {
+        userId: authState._id,
         email: authState.email,
         accessToken: authState.accessToken,
         isAuthenticated: !!authState.email,
-        changeAuthState
+        changeAuthState,
     }
 
     return (
