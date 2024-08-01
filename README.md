@@ -37,16 +37,17 @@ Test3
 ## 7.Authentication
 - [x] Auth API
     [x] Login
-  - [ ] Register
+  - [x] Register
   - [ ] Logout
 - [x] Auth API hook
   - [x] Login
-  - [ ] Register
+  - [x] Register
+    - [x] Add form validation
   - [ ] Logout
 - [x] Token management
 - [x] Auth state & context
-  - [ ] Login
-  - [ ] Register
+  - [x] Login
+  - [x] Register
   - [ ] Logout
   - [ ] Authorize Requests
 ## 8. UI implementation
